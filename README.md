@@ -1,28 +1,33 @@
-## Hoso
+# Hoso
 
-**Founder, [Florigen AI](https://florigen.ai)**
 Plant Genetics × Bioinformatics × Physical AI
 
-Building agricultural Physical AI systems for field-scale crop production in Hokkaido, Japan.
+Independent researcher and engineer exploring the intersection of crop genetics, bioinformatics, and agricultural robotics.
+
+Currently building **Florigen AI**, a long-term initiative focused on offline agricultural Physical AI systems for field-scale crop production in Hokkaido, Japan.
 
 ---
 
-### 🌱 What I'm building
+## 🌱 Current Focus
 
-**Florigen AI** — an offline agricultural Physical AI platform.
+### Florigen AI (in development)
 
-The first target is an autonomous weeding robot for adzuki bean fields, combining:
-- Night-time LED-controlled perception (eliminates sunlight interference)
-- LiDAR + camera sensor fusion for robust autonomous navigation
-- Edge AI inference on Jetson AGX Thor
-- ROS2 / Nav2-based autonomous navigation
-- Plant-domain knowledge from genetics and breeding research
+An offline agricultural Physical AI platform designed for operation in challenging field environments.
 
-> *"The robot works while the farmer sleeps."*
+Current research direction:
+- Autonomous weeding robots for row crops
+- Night-time LED-controlled perception
+- LiDAR + camera sensor fusion
+- ROS2 / Nav2 autonomous navigation
+- Edge AI deployment on embedded hardware
+- Integration of plant-domain knowledge from genetics and breeding research
+
+Vision:
+> Building agricultural infrastructure that works while the farmer sleeps.
 
 ---
 
-### 🔬 Research Visibility
+## 🔬 Research Visibility
 
 I publish reproducible research and engineering assets based on public datasets.
 
@@ -30,40 +35,51 @@ I publish reproducible research and engineering assets based on public datasets.
 |---|---|---|
 | [adzuki-snp-pipeline](https://github.com/hoso-jpn/adzuki-snp-pipeline) | Reproducible WGS-to-SNP calling pipeline for adzuki bean | ✅ Public |
 | [adzuki-gwas-analysis](https://github.com/hoso-jpn/adzuki-gwas-analysis) | GWAS for water absorption traits and FT gene exploration | 🔧 In progress |
-| [genomic-prediction-benchmark](https://github.com/hoso-jpn/genomic-prediction-benchmark) | GS model benchmarking with SoyNAM public dataset | 🔧 In progress |
+| [genomic-prediction-benchmark](https://github.com/hoso-jpn/genomic-prediction-benchmark) | Genomic selection benchmarking using public datasets | 🔧 In progress |
 | [genomic-prediction-resnet-hybrid](https://github.com/hoso-jpn/genomic-prediction-resnet-hybrid) | ResNet + linear hybrid genomic selection model | ✅ Public |
 
-**Strategic principle:**
-- ✅ Open: reproducible pipelines, public-data analyses, technical documentation
-- 🔒 Closed: proprietary SNP panel designs, customer data, future IP-sensitive assets
+### Open Science Policy
+
+**Open**
+- Reproducible pipelines
+- Public-data analyses
+- Technical documentation
+- Benchmarking studies
+
+**Closed**
+- Proprietary SNP panel designs
+- Customer data
+- Future intellectual property
+- Business-sensitive assets
 
 ---
 
-### 🛠 Tech Stack
+## 🛠 Technical Areas
 
-**Physical AI / Robotics**
-`ROS2` `Isaac Sim` `Nav2` `YOLOv11` `LiDAR` `Edge AI` `Jetson AGX Thor`
+**Physical AI & Robotics**
+`ROS2` `Isaac Sim` `Nav2` `YOLO` `Edge AI` `Jetson`
 
-**Bioinformatics**
-`BWA` `GATK` `samtools` `VCFtools` `GWAS` `Genomic Selection`
+**Bioinformatics & Genomics**
+`BWA` `GATK` `samtools` `GWAS` `QTL Analysis` `Genomic Selection`
 
-**ML / AI**
-`PyTorch` `ResNet` `Local LLM` `Secure AI / On-premise AI`
-
----
-
-### 🌾 Background
-
-- Plant genetics and molecular breeding research (Hokkaido, Japan)
-- SNP calling, GWAS, QTL analysis for adzuki bean and soybean
-- FT homolog gene exploration and flowering time genetics
-- Agricultural system and field-oriented technology development
-- Currently building edge AI robotics at [Athena Technologies](https://athenatech.jp)
+**Machine Learning**
+`PyTorch` `Deep Learning` `Local LLMs` `Secure AI`
 
 ---
 
-### 🔗 Links
+## 🌾 Background
 
-- 🌐 [florigen.ai](https://florigen.ai)
-- 📄 [Researchmap](https://researchmap.jp/hosokawa-yusuke)
-- 💼 [LAPRAS](https://lapras.com/public/CEV7BBV)
+- Plant genetics and molecular breeding research in Hokkaido, Japan
+- SNP calling and genomic analysis for adzuki bean and soybean
+- GWAS and QTL analysis
+- Flowering-time genetics and FT homolog exploration
+- Agricultural system design and field-oriented technology development
+- Currently working in AI consulting and engineering while pursuing agricultural Physical AI research
+
+---
+
+## 🔗 Links
+
+- GitHub: https://github.com/hoso-jpn
+- ResearchMap: https://researchmap.jp/hosokawa-yusuke
+- LAPRAS: https://lapras.com/public/CEV7BBV
