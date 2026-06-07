@@ -1,15 +1,15 @@
 # Hoso
 
-Plant Genetics \u00d7 Agricultural AI \u00d7 Physical AI
+Plant Genetics × Agricultural AI × Physical AI
 
 I am building a long-term research and engineering portfolio around agricultural AI.
 
 My current work spans two connected layers:
 
-1. **Plant genetics and bioinformatics**
+1. **Plant genetics and bioinformatics**  
    Reproducible analysis of public adzuki bean genomic datasets, including SNP calling, GWAS re-analysis, and genomic prediction experiments.
 
-2. **Agricultural Physical AI**
+2. **Agricultural Physical AI**  
    Field robotics and edge AI systems for offline agricultural environments, starting with autonomous weeding robots for row crops.
 
 Bioinformatics projects in this profile demonstrate plant-domain expertise that informs long-term agricultural AI and robotics development.
@@ -23,6 +23,7 @@ Bioinformatics projects in this profile demonstrate plant-domain expertise that 
 A long-term initiative to explore and develop agricultural Physical AI systems for field-scale crop production in Hokkaido, Japan.
 
 Research directions:
+
 - Autonomous weeding robots for row crops
 - Night-time LED-controlled perception
 - LiDAR and camera sensor fusion for autonomous navigation
@@ -59,12 +60,14 @@ Research directions:
 ## Open Science Policy
 
 **Open**
+
 - Reproducible pipelines and workflows
 - Public-data analyses
 - Technical documentation
 - Benchmarking studies
 
 **Closed**
+
 - Proprietary SNP panel designs
 - Customer data
 - Future intellectual property
@@ -74,14 +77,14 @@ Research directions:
 
 ## Technical Areas
 
-**Physical AI and Robotics**
-ROS2 \u00b7 Isaac Sim \u00b7 Nav2 \u00b7 YOLO \u00b7 Edge AI \u00b7 Jetson
+**Physical AI and Robotics**  
+ROS2 · Isaac Sim · Nav2 · YOLO · Edge AI · Jetson
 
-**Bioinformatics and Genomics**
-BWA \u00b7 GATK \u00b7 samtools \u00b7 GWAS \u00b7 QTL analysis \u00b7 Genomic selection
+**Bioinformatics and Genomics**  
+BWA · GATK · samtools · GWAS · QTL analysis · Genomic selection
 
-**Machine Learning**
-PyTorch \u00b7 Deep learning \u00b7 Local LLMs \u00b7 Secure AI
+**Machine Learning**  
+PyTorch · Deep learning · Local LLMs · Secure AI
 
 ---
 
