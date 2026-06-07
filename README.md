@@ -1,47 +1,65 @@
 # Hoso
 
-Plant Genetics × Bioinformatics × Physical AI
+Plant Genetics \u00d7 Agricultural AI \u00d7 Physical AI
 
-Independent researcher and engineer exploring the intersection of crop genetics, bioinformatics, and agricultural robotics.
+I am building a long-term research and engineering portfolio around agricultural AI.
 
-Currently building **Florigen AI**, a long-term initiative focused on offline agricultural Physical AI systems for field-scale crop production in Hokkaido, Japan.
+My current work spans two connected layers:
+
+1. **Plant genetics and bioinformatics**
+   Reproducible analysis of public adzuki bean genomic datasets, including SNP calling, GWAS re-analysis, and genomic prediction experiments.
+
+2. **Agricultural Physical AI**
+   Field robotics and edge AI systems for offline agricultural environments, starting with autonomous weeding robots for row crops.
+
+Bioinformatics projects in this profile demonstrate plant-domain expertise that informs long-term agricultural AI and robotics development.
 
 ---
 
-## 🌱 Current Focus
+## Current Direction
 
-### Florigen AI (in development)
+### Florigen AI *(in development)*
 
-An offline agricultural Physical AI platform designed for operation in challenging field environments.
+A long-term initiative to explore and develop agricultural Physical AI systems for field-scale crop production in Hokkaido, Japan.
 
-Current research direction:
+Research directions:
 - Autonomous weeding robots for row crops
 - Night-time LED-controlled perception
-- LiDAR + camera sensor fusion
-- ROS2 / Nav2 autonomous navigation
+- LiDAR and camera sensor fusion for autonomous navigation
+- ROS2 / Nav2-based autonomous navigation
 - Edge AI deployment on embedded hardware
-- Integration of plant-domain knowledge from genetics and breeding research
+- Plant-domain knowledge integration for agricultural perception and decision-making
 
-Vision:
 > Building agricultural infrastructure that works while the farmer sleeps.
 
 ---
 
-## 🔬 Research Visibility
+## Research Portfolio
 
-I publish reproducible research and engineering assets based on public datasets.
+### Layer 1: Plant Genetics and Bioinformatics
 
 | Repository | Description | Status |
 |---|---|---|
-| [adzuki-snp-pipeline](https://github.com/hoso-jpn/adzuki-snp-pipeline) | Reproducible WGS-to-SNP calling pipeline for adzuki bean | ✅ Public |
-| [adzuki-gwas-analysis](https://github.com/hoso-jpn/adzuki-gwas-analysis) | GWAS for water absorption traits and FT gene exploration | 🔧 In progress |
-| [genomic-prediction-benchmark](https://github.com/hoso-jpn/genomic-prediction-benchmark) | Genomic selection benchmarking using public datasets | 🔧 In progress |
-| [genomic-prediction-resnet-hybrid](https://github.com/hoso-jpn/genomic-prediction-resnet-hybrid) | ResNet + linear hybrid genomic selection model | ✅ Public |
+| [adzuki-snp-pipeline](https://github.com/hoso-jpn/adzuki-snp-pipeline) | Reproducible WGS-to-SNP calling pipeline for adzuki bean | Public |
+| [adzuki-gwas-analysis](https://github.com/hoso-jpn/adzuki-gwas-analysis) | Re-analysis and visualization of public GWAS summary statistics for adzuki bean water permeability | Public |
+| [genomic-prediction-benchmark](https://github.com/hoso-jpn/genomic-prediction-benchmark) | Genomic selection benchmarking using public datasets | In progress |
+| [genomic-prediction-resnet-hybrid](https://github.com/hoso-jpn/genomic-prediction-resnet-hybrid) | ResNet + linear hybrid genomic selection model | Public |
 
-### Open Science Policy
+### Layer 2: Agricultural Physical AI
+
+| Area | Status |
+|---|---|
+| ROS2 / Isaac Sim / Nav2 | In development |
+| YOLO-based crop and weed detection | In development |
+| Edge AI on embedded hardware | Planned |
+| Field robotics for adzuki bean weeding | Planned |
+
+---
+
+## Open Science Policy
 
 **Open**
-- Reproducible pipelines
+- Reproducible pipelines and workflows
 - Public-data analyses
 - Technical documentation
 - Benchmarking studies
@@ -54,31 +72,30 @@ I publish reproducible research and engineering assets based on public datasets.
 
 ---
 
-## 🛠 Technical Areas
+## Technical Areas
 
-**Physical AI & Robotics**
-`ROS2` `Isaac Sim` `Nav2` `YOLO` `Edge AI` `Jetson`
+**Physical AI and Robotics**
+ROS2 \u00b7 Isaac Sim \u00b7 Nav2 \u00b7 YOLO \u00b7 Edge AI \u00b7 Jetson
 
-**Bioinformatics & Genomics**
-`BWA` `GATK` `samtools` `GWAS` `QTL Analysis` `Genomic Selection`
+**Bioinformatics and Genomics**
+BWA \u00b7 GATK \u00b7 samtools \u00b7 GWAS \u00b7 QTL analysis \u00b7 Genomic selection
 
 **Machine Learning**
-`PyTorch` `Deep Learning` `Local LLMs` `Secure AI`
+PyTorch \u00b7 Deep learning \u00b7 Local LLMs \u00b7 Secure AI
 
 ---
 
-## 🌾 Background
+## Background
 
 - Plant genetics and molecular breeding research in Hokkaido, Japan
 - SNP calling and genomic analysis for adzuki bean and soybean
-- GWAS and QTL analysis
-- Flowering-time genetics and FT homolog exploration
+- GWAS, QTL analysis, and flowering-time genetics
 - Agricultural system design and field-oriented technology development
 - Currently working in AI consulting and engineering while pursuing agricultural Physical AI research
 
 ---
 
-## 🔗 Links
+## Links
 
 - GitHub: https://github.com/hoso-jpn
 - ResearchMap: https://researchmap.jp/hosokawa-yusuke
