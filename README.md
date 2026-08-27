@@ -10,7 +10,7 @@ My work connects three layers:
    Reproducible analysis of public crop genomic datasets, including WGS-to-variant pipelines, GWAS re-analysis, and genomic prediction experiments.
 
 2. **Breeding-data readiness and secure AI infrastructure**  
-   Audit-oriented tools for checking whether genotype, phenotype, sample metadata, and reference information are consistent enough to support downstream analysis without silently repairing ambiguous data.
+   Private product development around audit-oriented workflows for checking whether genotype, phenotype, sample metadata, and reference information are consistent enough to support downstream analysis without silently repairing ambiguous data.
 
 3. **Agricultural Physical AI**  
    A longer-term direction toward field robotics, perception, navigation, and edge AI for offline agricultural environments.
@@ -46,16 +46,23 @@ Longer-term research directions:
 
 ## Research & Engineering Portfolio
 
-### Layer 1: Breeding Genomics and Bioinformatics
+### Public Research & Engineering
 
 | Repository | Description | Status |
 |---|---|---|
-| [breeding-genomics-readiness-audit](https://github.com/hoso-jpn/breeding-genomics-readiness-audit) | Offline-first audit toolkit for evaluating whether breeding-genomics data is ready for downstream analysis | Pre-alpha |
 | [adzuki-snp-pipeline](https://github.com/hoso-jpn/adzuki-snp-pipeline) | Reproducible FASTQ-to-cohort-VCF pipeline for adzuki bean with auditable variant processing and GS-panel outputs | Public / active |
 | [adzuki-gwas-analysis](https://github.com/hoso-jpn/adzuki-gwas-analysis) | Re-analysis and reproducible delivery of public GWAS results for adzuki bean water permeability | Public |
 | [genomic-prediction-resnet-hybrid](https://github.com/hoso-jpn/genomic-prediction-resnet-hybrid) | ResNet + linear hybrid experiments for genomic prediction | Public |
 
-### Layer 2: Agricultural Physical AI
+### Private Product Development
+
+| Project | Description | Status |
+|---|---|---|
+| Breeding Genomics Readiness Audit | Offline-first assessment workflow for evaluating whether breeding-genomics data is ready for downstream analysis | Private / pre-alpha |
+
+The public repositories above demonstrate reproducible crop-genomics engineering on public data. Product-specific decision logic, calibration, delivery workflows, and customer-sensitive assets are developed privately.
+
+### Agricultural Physical AI
 
 | Area | Status |
 |---|---|
@@ -78,19 +85,19 @@ Longer-term research directions:
 
 ## Open Science Policy
 
-**Open**
+**Open by default when appropriate**
 
-- Reproducible pipelines and workflows
+- Reproducible pipelines and workflows based on public data
 - Public-data analyses
-- Technical documentation
-- Benchmarking studies
-- Generic audit and accounting logic
+- Technical documentation and benchmarking studies
+- Generic methods intentionally separated from product-sensitive logic
 
-**Closed / controlled**
+**Private / controlled**
 
-- Customer data
+- Customer data and customer-specific adapters
 - Proprietary SNP panel designs
-- Production calibration and business-sensitive decision rules
+- Product-specific decision logic and production calibration
+- Commercial delivery workflows and business-sensitive assets
 - Future intellectual property
 
 ---
