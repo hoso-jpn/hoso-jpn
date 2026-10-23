@@ -23,21 +23,31 @@ Currently at Athena Technologies, I specialize in delivering robust AI systems f
 
 > Building agricultural infrastructure that works while the farmer sleeps.
 
-### Layer 1: Breeding Genomics and Bioinformatics
+### Private Product Development
 
-- **Reproducible analysis** of public crop genomic datasets, including WGS-to-variant pipelines and GWAS re-analysis.
-- **Breeding-data readiness** — Audit-oriented tools for checking whether genotype, phenotype, and metadata are consistent enough to support downstream analysis without silently repairing ambiguous data.
+Audit-oriented workflows for checking whether genotype, phenotype, sample metadata, and reference information are consistent enough to support downstream analysis without silently repairing ambiguous data.
+
+| Project | Description | Status |
+|---|---|---|
+| Breeding Genomics Readiness Audit | Offline-first assessment workflow for evaluating whether breeding-genomics data is ready for downstream analysis | Pre-alpha / Private |
+
+Product-specific decision logic, calibration, delivery workflows, and customer-sensitive assets are developed privately.
+
+### Public Research & Engineering
+
+Reproducible analysis of public crop genomic datasets, including WGS-to-variant pipelines, GWAS re-analysis, and genomic prediction experiments.
 
 | Repository | Description | Status |
 |---|---|---|
-| [breeding-genomics-readiness-audit](https://github.com/hoso-jpn/breeding-genomics-readiness-audit) | Offline-first audit toolkit for evaluating whether breeding-genomics data is ready for downstream analysis | Pre-alpha |
 | [adzuki-snp-pipeline](https://github.com/hoso-jpn/adzuki-snp-pipeline) | Reproducible FASTQ-to-cohort-VCF pipeline for adzuki bean with auditable variant processing and GS-panel outputs | Public / active |
 | [adzuki-gwas-analysis](https://github.com/hoso-jpn/adzuki-gwas-analysis) | Re-analysis and reproducible delivery of public GWAS results for adzuki bean water permeability | Public |
 | [genomic-prediction-resnet-hybrid](https://github.com/hoso-jpn/genomic-prediction-resnet-hybrid) | ResNet + linear hybrid experiments for genomic prediction | Public |
 
-### Layer 2: Agricultural Physical AI
+These repositories demonstrate reproducible crop-genomics engineering on public data.
 
-A longer-term direction toward field robotics, ROS2 / Nav2-based autonomous navigation, LiDAR/camera sensor fusion, and edge AI deployment for offline agricultural environments (e.g., autonomous weeding robots).
+### Long-term Direction: Agricultural Physical AI
+
+Field robotics, ROS2 / Nav2-based autonomous navigation, LiDAR/camera sensor fusion, and edge AI deployment for offline agricultural environments (e.g., autonomous weeding robots).
 
 | Area | Status |
 |---|---|
@@ -57,22 +67,22 @@ A longer-term direction toward field robotics, ROS2 / Nav2-based autonomous navi
 
 ---
 
-## Open Science Policy
+## 🔐 Open Science & IP Policy
 
 **Open**
 
-- Reproducible pipelines and workflows
-- Public-data analyses
-- Technical documentation
-- Benchmarking studies
-- Generic audit and accounting logic
+- Reproducible pipelines based on public data
+- Generic methods intentionally extracted from product development
+- Technical benchmarks
 
-**Closed / controlled**
+**Closed / Controlled**
 
 - Customer data
 - Proprietary SNP panel designs
-- Production calibration and business-sensitive decision rules
-- Future intellectual property
+- Product-specific decision logic
+- Production calibration
+- Customer-specific adapters
+- Commercial delivery workflows
 
 ---
 
@@ -101,3 +111,16 @@ Python · TypeScript · Docker / GPU Containers · CI/CD · RAG Architecture
 - **ResearchMap:** [https://researchmap.jp/hosokawa-yusuke](https://researchmap.jp/hosokawa-yusuke)
 - **LAPRAS:** [https://lapras.com/public/CEV7BBV](https://lapras.com/public/CEV7BBV)
 - **Blog:** [https://blog.florigen.ai/](https://blog.florigen.ai/)
+
+---
+
+## 🇯🇵 プロフィール要約（About Me in Japanese）
+
+**エンタープライズAIインフラ × 植物遺伝学 × 農業AI**
+
+外部ネットワークに依存できない制約環境（金融機関の閉域網、自治体オンプレミス、電波の届かない農業現場）において、高セキュリティ・オフラインファーストなAIインフラを構築・運用するエンジニアです。直近の実務（Athena Technologies）では、DGX実機やDify基盤でのローカルLLM/音声処理パイプライン構築、AI出力の厳格な品質保証（回帰テスト・採点器設計）、AI協業による高速な機能デリバリーを主導してきました。
+
+長期的には、この技術基盤をライフワークであるアグリテックへ展開する研究開発イニシアチブ **「Florigen AI」** を推進しています。北海道での植物遺伝学・分子育種研究の知見を活かし、機密ゲノムデータを手元で安全に解析できる育種データ基盤や、夜間の圃場で自律稼働する除草ロボット（ROS2/エッジAI）の社会実装を目指しています。
+
+- **専門領域:** オフライン/オンプレミスAIインフラ、ローカルLLM、バイオインフォマティクス（GWAS/WGS解析パイプライン）、物理AI/ロボティクス（ROS2/Nav2）
+- **開発姿勢:** 曖昧なデータを暗黙修正しない厳格なデータ監査（No silent repair）、測定可能な根拠に基づく品質評価
