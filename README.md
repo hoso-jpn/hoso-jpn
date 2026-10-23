@@ -1,52 +1,41 @@
 # Hoso
 
-Plant Genetics × Breeding Genomics × Agricultural AI
+**Enterprise AI Infrastructure × Plant Genetics × Agricultural AI**
 
-I am building a long-term research and engineering portfolio around **agricultural AI**, with a current focus on reproducible breeding-genomics workflows and offline-first analysis systems.
-
-My work connects three layers:
-
-1. **Plant genetics and breeding genomics**  
-   Reproducible analysis of public crop genomic datasets, including WGS-to-variant pipelines, GWAS re-analysis, and genomic prediction experiments.
-
-2. **Breeding-data readiness and secure AI infrastructure**  
-   Private product development around audit-oriented workflows for checking whether genotype, phenotype, sample metadata, and reference information are consistent enough to support downstream analysis without silently repairing ambiguous data.
-
-3. **Agricultural Physical AI**  
-   A longer-term direction toward field robotics, perception, navigation, and edge AI for offline agricultural environments.
+I am a software/AI engineer specializing in **secure, offline-first AI infrastructure** and a researcher building a long-term portfolio around **agricultural AI**. My work bridges the gap between rigorous enterprise AI requirements (closed networks, on-premise) and field-oriented agricultural technology.
 
 ---
 
-## Current Direction
+## 🏢 Professional Engineering: Enterprise AI Infrastructure
 
-### Florigen AI *(in development)*
+Currently at Athena Technologies, I specialize in delivering robust AI systems for environments with strict security and network constraints, such as financial institutions and local governments.
 
-Florigen AI is a long-term research and engineering initiative for **offline-first agricultural AI**, beginning with breeding genomics and expanding toward field-scale Physical AI.
+- **Offline-First & On-Premise AI** — Architecting and deploying AI pipelines (Local LLMs, Whisper, pyannote) on on-premise GPU systems (e.g., NVIDIA DGX Spark) completely isolated from external networks, managing local model caches and GPU optimization.
+- **Secure LLM Platforms** — Building secure infrastructure for enterprise LLM/RAG platforms (like Dify) in closed networks, implementing audit logs, granular RBAC (Role-Based Access Control), and custom offline-compatible plugins.
+- **LLM Quality Assurance (QA)** — Moving AI outputs from "black-box" to "auditable" by designing regression testing frameworks, automated scoring systems, and baseline comparison pipelines to establish quantitative service-in criteria.
+- **High-Velocity AI-Assisted Development** — Working with AI coding agents (Claude, Codex) as co-authors on roughly 20% of commits overall and over 40% in peak delivery months. This enabled 240+ PRs and 200+ structured, team-ready issues within a 6-month period.
 
-Current priorities:
+---
 
-- Reproducible and auditable breeding-genomics pipelines
-- Offline-first genomic data readiness assessment
-- Non-model crop and non-standard domain support
-- Local / secure AI workflows that keep sensitive data under user control
-- Evidence-backed analysis with explicit accounting, provenance, and limitations
+## 🌱 R&D Portfolio: Florigen AI *(in development)*
 
-Longer-term research directions:
-
-- Autonomous weeding robots for row crops
-- Night-time LED-controlled perception
-- LiDAR and camera sensor fusion
-- ROS2 / Nav2-based autonomous navigation
-- Edge AI deployment on embedded hardware
-- Plant-domain knowledge integration for agricultural perception and decision-making
+**Florigen AI** is my independent, long-term research and engineering initiative for offline-first agricultural AI. It leverages my enterprise experience in secure, offline AI infrastructure to build agricultural systems that keep working even in fields without internet access.
 
 > Building agricultural infrastructure that works while the farmer sleeps.
 
----
+### Private Product Development
 
-## Research & Engineering Portfolio
+Audit-oriented workflows for checking whether genotype, phenotype, sample metadata, and reference information are consistent enough to support downstream analysis without silently repairing ambiguous data.
+
+| Project | Description | Status |
+|---|---|---|
+| Breeding Genomics Readiness Audit | Offline-first assessment workflow for evaluating whether breeding-genomics data is ready for downstream analysis | Pre-alpha / Private |
+
+Product-specific decision logic, calibration, delivery workflows, and customer-sensitive assets are developed privately.
 
 ### Public Research & Engineering
+
+Reproducible analysis of public crop genomic datasets, including WGS-to-variant pipelines, GWAS re-analysis, and genomic prediction experiments.
 
 | Repository | Description | Status |
 |---|---|---|
@@ -54,15 +43,11 @@ Longer-term research directions:
 | [adzuki-gwas-analysis](https://github.com/hoso-jpn/adzuki-gwas-analysis) | Re-analysis and reproducible delivery of public GWAS results for adzuki bean water permeability | Public |
 | [genomic-prediction-resnet-hybrid](https://github.com/hoso-jpn/genomic-prediction-resnet-hybrid) | ResNet + linear hybrid experiments for genomic prediction | Public |
 
-### Private Product Development
+These repositories demonstrate reproducible crop-genomics engineering on public data.
 
-| Project | Description | Status |
-|---|---|---|
-| Breeding Genomics Readiness Audit | Offline-first assessment workflow for evaluating whether breeding-genomics data is ready for downstream analysis | Private / pre-alpha |
+### Long-term Direction: Agricultural Physical AI
 
-The public repositories above demonstrate reproducible crop-genomics engineering on public data. Product-specific decision logic, calibration, delivery workflows, and customer-sensitive assets are developed privately.
-
-### Agricultural Physical AI
+Field robotics, ROS2 / Nav2-based autonomous navigation, LiDAR/camera sensor fusion, and edge AI deployment for offline agricultural environments (e.g., autonomous weeding robots).
 
 | Area | Status |
 |---|---|
@@ -73,61 +58,56 @@ The public repositories above demonstrate reproducible crop-genomics engineering
 
 ---
 
-## Engineering Principles
+## ⚙️ Engineering Principles
 
-- **Offline-first** — sensitive research and customer data should not require external SaaS or cloud upload
-- **Reproducible** — analysis should be rerunnable from explicit inputs, versions, and configuration
-- **Auditable** — record counts, exclusions, provenance, and decision rules should be traceable
-- **No silent repair** — ambiguous sample IDs, references, or metadata should be detected and surfaced rather than automatically rewritten
-- **Evidence over claims** — supported scale, accuracy, and readiness should be backed by measured evidence
+- **Offline-first** — Sensitive data (enterprise, research, or customer) should not require external SaaS or cloud upload.
+- **Auditable & No silent repair** — Record counts, decision rules, and AI outputs should be traceable. Ambiguous data should be surfaced, not silently rewritten.
+- **Reproducible** — Analysis and AI builds must be rerunnable from explicit inputs, versions, and configurations.
+- **Evidence over claims** — Supported scale, accuracy, and readiness should be backed by measured evidence and explicit testing frameworks.
 
 ---
 
-## Open Science Policy
+## 🔐 Open Science & IP Policy
 
-**Open by default when appropriate**
+**Open**
 
-- Reproducible pipelines and workflows based on public data
-- Public-data analyses
-- Technical documentation and benchmarking studies
-- Generic methods intentionally separated from product-sensitive logic
+- Reproducible pipelines based on public data
+- Generic methods intentionally extracted from product development
+- Technical benchmarks
 
-**Private / controlled**
+**Closed / Controlled**
 
-- Customer data and customer-specific adapters
+- Customer data
 - Proprietary SNP panel designs
-- Product-specific decision logic and production calibration
-- Commercial delivery workflows and business-sensitive assets
-- Future intellectual property
+- Product-specific decision logic
+- Production calibration
+- Customer-specific adapters
+- Commercial delivery workflows
 
 ---
 
-## Technical Areas
+## 🛠 Technical Areas
+
+**AI / Machine Learning Infrastructure**  
+PyTorch · Local LLMs · Whisper · pyannote · Dify · Secure AI · Offline inference · E2E AI Evaluation
 
 **Bioinformatics and Genomics**  
 BWA · GATK · samtools · bcftools · Nextflow · GWAS · QTL analysis · Genomic selection
 
-**AI / Machine Learning**  
-PyTorch · Deep learning · Local LLMs · Secure AI · Offline inference
-
 **Physical AI and Robotics**  
 ROS2 · Isaac Sim · Nav2 · YOLO · Edge AI · Jetson
 
----
-
-## Background
-
-- Plant genetics and molecular breeding research in Hokkaido, Japan
-- SNP calling and genomic analysis for adzuki bean and soybean
-- GWAS, QTL analysis, flowering-time genetics, and breeding-oriented data interpretation
-- Agricultural system design and field-oriented technology development
-- Currently working in AI engineering while developing Florigen AI as an independent long-term R&D initiative
+**Software Engineering**  
+Python · TypeScript · Docker / GPU Containers · CI/CD · RAG Architecture
 
 ---
 
-## Links
+## 📖 Background & Links
 
-- GitHub: https://github.com/hoso-jpn
-- ResearchMap: https://researchmap.jp/hosokawa-yusuke
-- LAPRAS: https://lapras.com/public/CEV7BBV
-- Blog: https://blog.florigen.ai/
+- Plant genetics and molecular breeding research in Hokkaido, Japan (SNP calling, GWAS, flowering-time genetics for adzuki bean and soybean).
+- Translating biological domain knowledge and rigorous QA practices into enterprise AI engineering.
+
+- **GitHub:** [https://github.com/hoso-jpn](https://github.com/hoso-jpn)
+- **ResearchMap:** [https://researchmap.jp/hosokawa-yusuke](https://researchmap.jp/hosokawa-yusuke)
+- **LAPRAS:** [https://lapras.com/public/CEV7BBV](https://lapras.com/public/CEV7BBV)
+- **Blog:** [https://blog.florigen.ai/](https://blog.florigen.ai/)
