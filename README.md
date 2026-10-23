@@ -111,3 +111,16 @@ Python · TypeScript · Docker / GPU Containers · CI/CD · RAG Architecture
 - **ResearchMap:** [https://researchmap.jp/hosokawa-yusuke](https://researchmap.jp/hosokawa-yusuke)
 - **LAPRAS:** [https://lapras.com/public/CEV7BBV](https://lapras.com/public/CEV7BBV)
 - **Blog:** [https://blog.florigen.ai/](https://blog.florigen.ai/)
+
+---
+
+## 🇯🇵 プロフィール要約（About Me in Japanese）
+
+**エンタープライズAIインフラ × 植物遺伝学 × 農業AI**
+
+外部ネットワークに依存できない制約環境（金融機関の閉域網、自治体オンプレミス、電波の届かない農業現場）において、高セキュリティ・オフラインファーストなAIインフラを構築・運用するエンジニアです。直近の実務（Athena Technologies）では、DGX実機やDify基盤でのローカルLLM/音声処理パイプライン構築、AI出力の厳格な品質保証（回帰テスト・採点器設計）、AI協業による高速な機能デリバリーを主導してきました。
+
+長期的には、この技術基盤をライフワークであるアグリテックへ展開する研究開発イニシアチブ **「Florigen AI」** を推進しています。北海道での植物遺伝学・分子育種研究の知見を活かし、機密ゲノムデータを手元で安全に解析できる育種データ基盤や、夜間の圃場で自律稼働する除草ロボット（ROS2/エッジAI）の社会実装を目指しています。
+
+- **専門領域:** オフライン/オンプレミスAIインフラ、ローカルLLM、バイオインフォマティクス（GWAS/WGS解析パイプライン）、物理AI/ロボティクス（ROS2/Nav2）
+- **開発姿勢:** 曖昧なデータを暗黙修正しない厳格なデータ監査（No silent repair）、測定可能な根拠に基づく品質評価
